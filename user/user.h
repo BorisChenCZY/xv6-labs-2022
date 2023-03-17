@@ -1,6 +1,8 @@
 struct stat;
 
 typedef unsigned int uint;
+typedef unsigned short ushort;
+typedef unsigned long uint64;
 
 // system calls
 int fork(void);

@@ -1,6 +1,5 @@
 #include "user/user.h"
-
-#define CHECK_RET(ret) if (ret < 0) exit(1);
+#include "common.h"
 
 int
 main()
